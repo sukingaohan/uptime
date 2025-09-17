@@ -1,12 +1,12 @@
 const pageConfig = {
   // Title for your status page
-  title: "数字套利 •「AM科技」's Status Page",
+  title: "MOONTV's Status Page",
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
-    { link: 'https://amclubss.com', label: '博客', highlight: true },
-    { link: 'https://809098.xyz', label: 'Blog'},
-    { link: 'https://youtube.com/@AM_CLUBS', label: 'YouTube' },
-    { link: 'https://github.com/amclubs', label: 'GitHub' }, 
+    { link: 'https://suking-moontv.hf.space', label: '电影', highlight: true },
+    { link: 'https://suking-moontv.hf.space', label: '直播'},
+    { link: 'https://suking-moontv.hf.space', label: '动画片' },
+    { link: 'https://suking-moontv.hf.space', label: '追剧' }, 
   ],
 }
 
@@ -49,17 +49,17 @@ const workerConfig = {
       // checkLocationWorkerRoute: 'https://am.809098.xyz',
     },
     // Example TCP Monitor
-    {
-      id: '809098.xyz',
-      name: 'Blog',
+    // {
+    //  id: '809098.xyz',
+    // name: 'Blog',
       // `method` should be `TCP_PING` for tcp monitors
-      method: 'GET',
+    // method: 'GET',
       // `target` should be `host:port` for tcp monitors
-      target: 'https://809098.xyz',
-      tooltip: 'My production server monitor',
-      statusPageLink: 'https://809098.xyz',
-      timeout: 10000,
-    },
+    // target: 'https://809098.xyz',
+    // tooltip: 'My production server monitor',
+    // statusPageLink: 'https://809098.xyz',
+    // timeout: 10000,
+  // },
   ],
   notification: {
     // [Optional] apprise API server URL
